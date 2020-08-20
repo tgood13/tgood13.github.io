@@ -474,7 +474,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -10028,7 +10028,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 #mainNav {
@@ -10096,7 +10096,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/cover2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
