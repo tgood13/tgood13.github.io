@@ -475,7 +475,7 @@ mark,
 
 .img-fluid {
   max-width: 50%;
-  height: auto;
+  height: 100px;
 }
 
 .img-thumbnail {
@@ -10096,7 +10096,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/cover2.jpg");
+  background: linear-gradient(to bottom, rgba(60,60,70, 0.8) 0%, rgba(60, 60, 70, 0.8) 100%), url("../assets/img/cover2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10175,7 +10175,8 @@ header.masthead h1 {
 .column {
   float: middle;
   width: 50%;
-  padding: 0 20px;
+  padding: 0 10px;
+  padding-bottom: 20px;
 }
 
 /* Remove extra left and right margins, due to padding in columns */
@@ -10191,7 +10192,7 @@ header.masthead h1 {
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 0px;
+  padding: 10px;
   text-align: left;
   background-color: #f1f1f1;
 }
